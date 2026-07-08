@@ -46,9 +46,6 @@ Open http://localhost:8000 or http://localhost:3000 in your web browser.
 ## Project Structure
 ```bash
 nexus-box-3d/
-├── .github/
-│   └── workflows/
-│       └── ci.yml      # Lightweight automated HTML/CSS linters
 ├── .gitignore          # Ignores system junk and IDE setups
 ├── index.html          # Main layout markup and theme toggle handler
 ├── style.css           # 3D transforms, custom variables, and theme styling

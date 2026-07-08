@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Product Mockup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card-3d">
+      <div class="face front">
+        <div class="brand">NEXUS</div>
+        <div class="product-name">Pod Pro</div>
+        <div class="chip">v2 Chip</div>
+      </div>
+      <div class="face back">
+        <div class="specs">
+          <h3>Specs</h3>
+          <p>Active Noise Canceling</p>
+          <p>40h Battery Life</p>
+          <p>Spatial Audio</p>
+        </div>
+      </div>
+      <div class="face right"></div>
+      <div class="face left"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+    </div>
+  </div>
+
+  <button class="theme-toggle" id="themeBtn" aria-label="Toggle Theme">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+  </button>
+
+  <script>
+    const btn = document.getElementById('themeBtn');
+    btn.addEventListener('click', () => {
+      document.body.classList.toggle('light-theme');
+    });
+  </script>
+</body>
+</html>
